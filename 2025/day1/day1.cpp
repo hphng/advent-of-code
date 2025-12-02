@@ -5,9 +5,8 @@ using namespace std;
 
 int main()
 {
-    ifstream file("D:/Outsource/advent-of-code/day1/input.txt");
-    if (!file.is_open())
-    {
+    ifstream file("D:/Outsource/advent-of-code/2025/day1/input.txt");
+    if (!file.is_open()){
         cerr << "Error opening file." << endl;
         return 1;
     }
