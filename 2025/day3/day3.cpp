@@ -57,12 +57,15 @@ int main() {
     //     cerr << "Error reading line!" << endl;
     //     return 1;
     // }
-    long long sum = 0;
+    long long p1 = 0;
+    long long p2 = 0;
 
     while (getline(file, line)) {
-        sum += findLargestJoltage(line, 12);
+        p1 += findLargestJoltage(line, 2);
+        p2 += findLargestJoltage(line, 12);
         // cout << line << endl;
     }
-    cout << sum;
+    cout << "part 1: " << p1 << endl;
+    cout << "part 2: " << p2 << endl;
     return 0;
 }
