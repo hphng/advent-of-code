@@ -30,8 +30,8 @@ int main() {
     
     cout << "Part 1: " << p1 << endl;
     cout << "Part 2: " << p2 << endl;
-    cout << "Time taken for Part 1: " << duration_p1 << " ms" << endl;
-    cout << "Time taken for Part 2: " << duration_p2 << " ms" << endl;
+    cout << "Time taken for Part 1: " << duration_p1 << " μs" << endl;
+    cout << "Time taken for Part 2: " << duration_p2 << " μs" << endl;
 
     return 0;
 }
